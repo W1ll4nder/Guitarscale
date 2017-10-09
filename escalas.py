@@ -80,7 +80,7 @@ while cont == 'sim':
             esc = notas1 + notas2
             notas = esc
             maior()
-        c = input('se deseja continuar digite sim ou não para sair: ')
+        c = input('se deseja continuar digite sim ou não para sair: ').lower()
         cont = c
     else:
         print('digite uma nota válida')
