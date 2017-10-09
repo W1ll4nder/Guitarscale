@@ -5,11 +5,12 @@ def maior():
     esc2 = (notas[5:12:2])
     print(esc1+esc2)
 
-tom = input('digite o tom da escala que vc deseja: ')
+tom = input('digite o tom da escala que vc deseja: ').lower()
 
 if tom in notas:
     if tom == notas[0]:
         maior()
+
     if tom == notas[1]:
         notas1 = notas[1:]
         notas2 = notas[0]
