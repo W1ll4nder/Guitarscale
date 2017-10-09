@@ -1,4 +1,4 @@
-notas = ['c', 'c#', 'd', 'd#', 'e', 'f', 'f#', 'g', 'g#', 'a', 'a#', 'b']
+notas = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B']
 
 def maior():
     esc1 = (notas[0:6:2])
@@ -8,7 +8,7 @@ def maior():
 cont = 'sim'
 
 while cont == 'sim':
-    tom = input('digite o tom da escala que vc deseja: ').lower()
+    tom = input('digite o tom da escala que vc deseja: ').upper()
 
     if tom in notas:
         if tom == notas[0]:
