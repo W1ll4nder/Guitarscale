@@ -1,0 +1,2 @@
+# Guitarscale
+![./guitar.jpg]
