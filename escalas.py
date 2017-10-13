@@ -5,6 +5,8 @@ def maior():
         print('{},{},{},{},{},{},{}'.format(notas[0],notas[2],notas[4],notas[5],notas[7],notas[9],notas[11]))
     if escala == 'menor':
         print('{},{},{},{},{},{},{}'.format(notas[0],notas[2],notas[3],notas[5],notas[7],notas[8],notas[10]))
+    if escala == 'penta':
+        print('{},{},{},{},{}'.format(notas[0],notas[2],notas[4],notas[7],notas[9]))
 cont = 'sim'
 while cont == 'sim':
     tom = input('digite o tom da escala que vc deseja: ').upper()
