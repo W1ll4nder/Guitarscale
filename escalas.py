@@ -2,11 +2,9 @@ notas_original = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B
 notas = notas_original
 def maior():
     if escala == 'maior':
-        esc1 =notas[0]+notas[2]+notas[4]+notas[5]+notas[7]+notas[9]+notas[11]
-        print(esc1)
+        print('{},{},{},{},{},{},{}'.format(notas[0],notas[2],notas[4],notas[5],notas[7],notas[9],notas[11]))
     if escala == 'menor':
-        esc1 = notas[0]+notas[2]+notas[3]+notas[5]+notas[7]+notas[8]+notas[10]
-        print(esc1)
+        print('{},{},{},{},{},{},{}'.format(notas[0],notas[2],notas[3],notas[5],notas[7],notas[8],notas[10]))
 cont = 'sim'
 while cont == 'sim':
     tom = input('digite o tom da escala que vc deseja: ').upper()
